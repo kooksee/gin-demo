@@ -1,0 +1,14 @@
+hash: d129c88905c9b7025963c74efe6dd0b7d356baec831c094aa4b9993152428322
+updated: 2017-07-21T22:30:50.45483442+08:00
+imports:
+- name: github.com/gin-contrib/sse
+  version: 22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae
+- name: github.com/gin-gonic/gin
+  version: d459835d2b077e44f7c9b453505ee29881d5d12d
+- name: github.com/go-redis/redis
+  version: a005081ecd2d0d963a1a20efda049223205cf90a
+- name: github.com/googollee/go-socket.io
+  version: 5447e71f36d394766bf855d5714a487596809f0d
+- name: gopkg.in/olahol/melody.v1
+  version: d521390733761fe1db13de575c253afd5c743085
+testImports: []

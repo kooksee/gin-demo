@@ -1,0 +1,10 @@
+package: github.com/kooksee/gin-demo
+import:
+- package: github.com/go-redis/redis
+  version: v6.5.4
+- package: github.com/googollee/go-socket.io
+- package: gopkg.in/olahol/melody.v1
+  version: v1
+- package: github.com/gin-gonic/gin
+  version: v1.2
+- package: github.com/gin-contrib/sse
