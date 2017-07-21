@@ -82,23 +82,8 @@ func main() {
 		server.ServeHTTP(c.Writer, c.Request)
 	})
 
+	r.Run(":8080")
 
-
-	//r.Handle("/socket.io/", server)
-	//r.Handle("/", http.FileServer(http.Dir("./asset")))
-	//r.Run() // listen and serve on 0.0.0.0:8080
-
-	srv := &http.Server{
-		Addr:    ":8080",
-		Handler: r,
-	}
-	http.Handle("/socket.io/", server)
-
-	srv.ListenAndServe()
-
-
-	//log.Println("Serving at localhost:5000...")
-	//log.Fatal(http.ListenAndServe(":5000", nil))
 }
 
 
